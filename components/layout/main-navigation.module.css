@@ -1,0 +1,37 @@
+.NavbarContainer {
+  background-color: var(--PrimaryColor);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 9rem;
+}
+.ListNavigation {
+  display: flex;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.Logo {
+  color: white;
+}
+.ListNavigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 814px) {
+  .NavbarContainer {
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .ListNavigation {
+    font-size: 0.6rem;
+  }
+  .Logo {
+    font-size: 1rem;
+  }
+}

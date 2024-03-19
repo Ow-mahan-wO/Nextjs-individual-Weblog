@@ -1,0 +1,17 @@
+.FeaturedPostsContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 14rem;
+}
+.FeaturedPostsContainer h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6873ff;
+  margin-bottom: 4rem;
+}
+.PostsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

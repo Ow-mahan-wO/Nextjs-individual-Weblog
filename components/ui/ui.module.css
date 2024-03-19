@@ -1,0 +1,72 @@
+.button:hover {
+  background-color: #eff2fc;
+  color: var(--PrimaryColor);
+  border: 1px solid var(--PrimaryColor);
+  transition: ease-in-out 0.2s;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+  position: absolute;
+  bottom: 0;
+}
+.button {
+  background-color: var(--PrimaryColor);
+  color: white;
+  font-weight: bold;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+.btnOutLine {
+  background-color: white;
+  color: var(--PrimaryColor);
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border: 2px solid var(--PrimaryColor);
+}
+.input {
+  background-color: #eff2fc;
+  border-radius: 0.5rem;
+  resize: none;
+  color: var(--PrimaryColor);
+  border: 2px solid var(--PrimaryColor);
+  margin: 0.8rem;
+  width: 19rem;
+  text-indent: 10px;
+  font-size: 1rem;
+  height: 3rem;
+  outline: none;
+}
+.success {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+.error {
+  background: red;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  padding: 2rem;
+}
+.notification {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

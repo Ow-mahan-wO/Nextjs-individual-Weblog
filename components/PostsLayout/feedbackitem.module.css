@@ -1,0 +1,28 @@
+.image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.container {
+  margin-top: 1rem;
+  padding: 2rem;
+  width: 88%;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.container h4 {
+  margin: 2rem 0 0 1.2rem;
+}
+.feedbackContainer {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(180, 180, 180, 0.346);
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 774px) {
+  .container {
+    width: 80%;
+  }
+}

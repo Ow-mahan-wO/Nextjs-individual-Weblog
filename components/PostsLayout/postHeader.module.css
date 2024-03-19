@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: var(--PrimaryColor);
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.coverContainer {
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.coverContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+@media only screen and (max-width: 1520px) {
+  .container {
+    width: 83%;
+    margin: 0 auto;
+  }
+}

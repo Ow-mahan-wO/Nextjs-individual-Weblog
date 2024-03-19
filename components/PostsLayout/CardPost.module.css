@@ -1,0 +1,47 @@
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.8rem;
+  border: 4px solid var(--PrimaryColor);
+  overflow: hidden;
+  width: 30rem;
+  margin: 1.5rem;
+  height: 36rem;
+}
+.coverContainer {
+  width: 100%;
+  height: 16rem;
+}
+.informationCardContainer {
+  display: flex;
+  color: var(--PrimaryColor);
+  text-align: justify;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 0 3rem;
+}
+.CardContainer:hover {
+  background-color: var(--PrimaryColor);
+  transition: ease 0.4s;
+  scale: 1.1;
+  .informationCardContainer {
+    color: white;
+  }
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 814px) {
+  .CardContainer {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .CardContainer {
+    width: 13rem;
+  }
+}
